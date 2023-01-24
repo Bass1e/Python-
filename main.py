@@ -1,6 +1,6 @@
 import random
 
-"""fuck you"""
+"""blabla"""
 MAX_LINES = 3
 MAX_BET = 100
 MIN_BET = 1
@@ -11,7 +11,7 @@ COLS = 3
 
 
 def deposit():
-    """fuck you"""
+    """blabla"""
     while True:
         amount = input("What would you like to deposit? $")
         if amount.isdigit():
@@ -27,7 +27,7 @@ def deposit():
 
 
 def get_number_of_lines():
-    """fuck you"""
+    """blabla"""
     while True:
         lines = input("Enter the number of lines to bet on (1-" + str(MAX_LINES) + ")? ")
         if lines.isdigit():
@@ -42,7 +42,7 @@ def get_number_of_lines():
     return lines
 
 def get_bet():
-    """fuck you"""
+    """blabla"""
     while True:
         amount = input("What would you like to bet on each line? $")
         if amount.isdigit():
@@ -57,7 +57,7 @@ def get_bet():
     return amount
 
 def main():
-    """fuck you"""
+    """blabla"""
     balance = deposit()
     lines = get_number_of_lines()
     while True:
